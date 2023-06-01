@@ -1,0 +1,102 @@
+/* CSS code for the HTML page */
+
+/* Set styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Set styles for the h1 header */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Set styles for the form */
+form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Set styles for the label */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Set styles for the input text */
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+/* Set styles for the input submit */
+input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Set styles for the input submit:hover */
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Set styles for the input submit:active */
+input[type="submit"]:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+}
+/* CSS code for the JSP file */
+
+/* Set styles for the h5 */
+h5 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Set styles for the button */
+#back {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Set styles for the button:hover */
+button:hover {
+    background-color: #3e8e41;
+}
+
+/* Set styles for the button:active */
+button:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+}
